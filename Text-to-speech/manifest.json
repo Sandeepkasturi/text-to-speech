@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Text to Speech Extension",
+  "version": "1.0",
+  "description": "Converts selected text to speech",
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "128": "mic.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "mic.png"
+    },
+    "default_title": "Text to Speech",
+    "default_popup": "index.html"
+  }
+}

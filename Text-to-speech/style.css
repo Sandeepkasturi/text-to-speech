@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  div{
+    font-size: small;
+  }
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0077b6;
+    margin: 20px;
+    text-align: center;
+  }
+  #status {
+    font-size: 16px;
+    color: #222222;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 2px solid #0077b6;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  button {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0077b6;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    margin: 40px auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #023e8a;
+  }
